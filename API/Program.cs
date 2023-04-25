@@ -1,6 +1,6 @@
 ﻿using Core;
 using Core.Repositories;
-using Infrastructure.SQL;
+using Core.SQL;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationContext>(options =>
